@@ -14,8 +14,8 @@ services:
     environment:
       - DB_HOST=db
       - DB_NAME=mydb
-      - DB_USER=farooq
-      - DB_PASSWORD=farooq
+      - DB_USER=username
+      - DB_PASSWORD=secretPassword
     depends_on:
       - db
 
